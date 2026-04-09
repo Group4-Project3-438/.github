@@ -13,11 +13,11 @@ This README outlines the **core requirements and direction** for the project dur
 ### Authentication
 - OAuth2 login (Spring Security)  
 - At least 2 providers (e.g., Google, GitHub)  
-- User account creation, update, and deletion  
+- User account *creation, update, and deletion* 
 
 ### Frontend
 - Reactive web application  
-- Hosted online (Render, AWS, GCP, etc.)  
+- Hosted online USING *RENDER*  
 - Mobile support (Android or iOS)  
 - Consistent UI across platforms  
 
@@ -28,7 +28,7 @@ This README outlines the **core requirements and direction** for the project dur
 - CORS support  
 
 ### Database
-- PostgreSQL (Supabase recommended)  
+- PostgreSQL *MIGHT USE SUPABASE OR FIREBASE*
 - Stores user and app data  
 
 ---
@@ -38,12 +38,12 @@ This README outlines the **core requirements and direction** for the project dur
 ### Testing
 - Frontend: Jest, Playwright  
 - Backend: JUnit  
-- API: Postman  
+- API: Postman (Maybe) 
 
 ### Deployment
 - Connected to GitHub  
 - Automatic deployments on updates  
-- Tests must pass before deployment  
+- Automated Test (Tests must pass before deployment)
 
 ### DevOps
 - Backend containerized with Docker  
@@ -52,7 +52,6 @@ This README outlines the **core requirements and direction** for the project dur
 ---
 
 ## Team Structure
-Each team member will build a **full vertical slice**:
 - Database (entity/table)  
 - Backend (API route)  
 - Frontend (UI page)  
