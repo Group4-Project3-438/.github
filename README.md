@@ -1,4 +1,4 @@
-# CST 438 – Project 3
+# CST 438 – Project 3 [Name Placeholder]
 
 ## Overview
 This repository contains our team project for CST 438.  
